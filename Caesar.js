@@ -45,7 +45,7 @@ function concatInitialAndAdditionalWords(initialWords,additionalWords)
 	return checkWords;
 }
 
-var stringToCheck = prompt("Please enter the Caesar shifted string", "Lqda yazwqke iqdq tmdyqp uz ftq ymwuzs ar ftue mneaxgfq rgowrqef mzp za fduxasuqe iqdq ympq fa idufq fa ftq laa");
+var stringToCheck = prompt("Please enter the Caesar shifted string", "Ftdqq Duzse rad ftq Qxhqz-wuzse gzpqd ftq ewk, Eqhqz rad ftq Pimdr-xadpe uz ftqud tmxxe ar efazq, Zuzq rad Yadfmx Yqz paayqp fa puq, Azq rad ftq Pmdw Xadp az tue pmdw ftdazq Uz ftq Xmzp ar Yadpad itqdq ftq Etmpaie xuq. Azq Duzs fa dgxq ftqy mxx, Azq Duzs fa ruzp ftqy, Azq Duzs fa nduzs ftqy mxx mzp uz ftq pmdwzqee nuzp ftqy Uz ftq Xmzp ar Yadpad itqdq ftq Etmpaie xuq");
 var initialWords=["the","be","to","of","and","in","that","have","it","for","not","on","with","he","as","you","do","at","this","but","his","by","from","they","we","say","her","she","or","an","will","my","one","all","would","there","their","what","so","because","about","which","people","could","other","think","after","first","these"]; //Most popular words in English language
 var additionalWords = prompt("If there are any words you suspect are in the solution please enter them, separated by a comma. This is in addition to the most common words in the English language.", "").split(",");
 var checkWords = concatInitialAndAdditionalWords(initialWords,additionalWords);
